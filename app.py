@@ -17,7 +17,8 @@ def prediction(sepal_length, sepal_width, petal_length, petal_width):
 
 def main():
     st.title("Aplikasi untuk mengklasifikasikan bunga Iris dengan Algoritma KNN")
-    st.markdown('Ferdi Maulana Akbar_2019230119)
+    st.markdown('Ferdi Maulana Akbar_2019230119')
+    st.write('\n')
     st.write('\n')
     st.markdown('Silakan isi form berikut terlebih dahulu :')
     
