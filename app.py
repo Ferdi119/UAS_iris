@@ -19,7 +19,6 @@ def main():
     st.title("Aplikasi untuk mengklasifikasikan bunga Iris dengan Algoritma KNN")
     st.markdown('Ferdi Maulana Akbar_2019230119')
     st.write('\n')
-    st.write('\n')
     st.markdown('Silakan isi form berikut terlebih dahulu :')
     
     st.write('\n')
