@@ -1,5 +1,5 @@
 # UAS_iris
 --------------------------------------------------------
-Nama : Ferdi Maulana Akbar
-NIM : 2019230119
+Nama : Ferdi Maulana Akbar <br>
+NIM : 2019230119 <br>
 Jurusan : Teknologi Informasi
