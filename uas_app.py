@@ -35,8 +35,6 @@ st.write('\n\n')
 
 if st.button("Tekan untuk Klasifikasi bunga iris-nya:"):
 	prediction = svm_clf.predict(input_variables)
-	st.image(setosa) if prediction == 0 
-				else st.image(versicolor)  
-			 if prediction == 1 
-				else st.image(virginica) 
+	st.image(setosa) if prediction == 0 else st.image(versicolor)  
+			 if prediction == 1 else st.image(virginica) 
 	
