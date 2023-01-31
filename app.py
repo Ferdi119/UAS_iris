@@ -10,9 +10,9 @@ svm_clf=joblib.load(model)
 st.title("Aplikasi untuk mengklasifikasikan spesies pada bunga Iris")
 
 
-setosa     = Image.open('assets/setosa.png')
-versicolor = Image.open('assets/iris_versicolor.png')
-virginica  = Image.open('assets/virginica.png')
+setosa     = Image.open('assets/setosa.PNG')
+versicolor = Image.open('assets/iris_versicolor.PNG')
+virginica  = Image.open('assets/virginica.PNG')
 
 st.sidebar.title("Fitur-fitur")
 
