@@ -7,7 +7,7 @@ pickle_in = open('model.pkl', 'rb')
 nb = pickle.load(pickle_in)
 
 def welcome():
-    return 'Hallo dan selamat datang'
+    return 'Selamat Datang'
 
 def prediction(sepal_length, sepal_width, petal_length, petal_width):
 
@@ -16,16 +16,16 @@ def prediction(sepal_length, sepal_width, petal_length, petal_width):
     return prediction
 
 def main():
-    st.title("Aplikasi untuk mengklasifikasikan bunga Iris dengan Algoritma KNN")
+    st.title("Aplikasi Prediksi Bunga Iris Algoritma Naive Bayes")
     st.markdown('Ferdi Maulana Akbar_2019230119')
     st.write('\n')
     st.markdown('Silakan isi form berikut terlebih dahulu :')
     
     st.write('\n')
-    sepal_length = st.text_input("Sepal Length", "0")
-    sepal_width = st.text_input("Sepal Width", "0")
-    petal_length = st.text_input("Petal Length", "0")
-    petal_width = st.text_input("Petal Width", "0")
+    sepal_length = st.number_input("Sepal Length", 0)
+    sepal_width = st.number_input("Sepal Width", 0)
+    petal_length = st.number_input("Petal Length", 0)
+    petal_width = st.number_input("Petal Width", 0)
     result =""
     
     if st.button("PREDIKSI"):
